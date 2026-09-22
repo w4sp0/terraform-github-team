@@ -64,7 +64,7 @@ Most basic usage creating a GitHub team:
 
 ```hcl
 module "team" {
-  source  = "rad-jan/team/github"
+  source  = "w4sp0/team/github"
   version = "~> 0.9.0"
 
   name        = "DevOps"
@@ -105,7 +105,7 @@ For comprehensive documentation on module arguments, outputs, and advanced confi
 
 ```hcl
 module "team" {
-  source = "rad-jan/team/github"
+  source = "w4sp0/team/github"
 
   name        = "Backend Team"
   description = "Backend development team"
@@ -143,7 +143,7 @@ module "team" {
 
 ```hcl
 module "engineering" {
-  source = "rad-jan/team/github"
+  source = "w4sp0/team/github"
 
   name        = "Engineering"
   description = "All engineering staff"
@@ -151,7 +151,7 @@ module "engineering" {
 }
 
 module "backend" {
-  source = "rad-jan/team/github"
+  source = "w4sp0/team/github"
 
   name           = "Backend"
   description    = "Backend engineering team"
@@ -163,7 +163,7 @@ module "backend" {
 }
 
 module "frontend" {
-  source = "rad-jan/team/github"
+  source = "w4sp0/team/github"
 
   name           = "Frontend"
   description    = "Frontend engineering team"
